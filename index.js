@@ -8,6 +8,10 @@ app.post("/a", (req,res)=>{
   res.json({me: "yes"})
 })
 
+app.get("/", (req,res)=>{
+  res.json({Messa: "helo"})
+})
+
 app.post("/bfhl", (req, res) => {
   // const { array } = req.body;
   const array = ["a", "1", "334", "4", "R"]
