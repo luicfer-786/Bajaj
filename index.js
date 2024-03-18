@@ -9,7 +9,7 @@ app.post("/a", (req,res)=>{
 })
 
 app.get("/", (req,res)=>{
-  res.json({Messa: "helo"})
+  res.send({Messa: "helo"})
 })
 
 app.post("/bfhl", (req, res) => {
